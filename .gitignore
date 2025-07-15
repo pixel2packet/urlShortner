@@ -1,1 +1,45 @@
+# Binaries and compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+bin/
+build/
+dist/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Vendor directory (if not using Go modules)
+vendor/
+
+# Git and logs
+*.log
+*.bak
+*.tmp
+*.swp
+
+# IDE/editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Environment config
 .env
+.env.local
+.env.*
+
+# Docker
+docker-compose.override.yml
+
+# Redis dump files
+dump.rdb
+appendonly.aof
+
+# Go Modules cache (not usually needed in repo)
+go.sum
